@@ -1,10 +1,10 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "Qatapult",
-  url: "https://vox-logic.github.io",
-  baseUrl: "/qatapult-docs/",
-  projectName: "qatapult-docs",
-  organizationName: "vox-logic",
+  url: "https://qatapultai.github.io",
+  baseUrl: "/docs/",
+  projectName: "docs",
+  organizationName: "qatapultai",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
@@ -23,7 +23,7 @@ module.exports = {
           label: "Docs",
         },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/QatapultAI/docs",
           label: "GitHub",
           position: "right",
         },
@@ -37,8 +37,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/",
+          editUrl: "https://github.com/QatapultAI/docs/edit/master/website",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
