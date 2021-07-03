@@ -4,8 +4,8 @@ module.exports = {
   url: "https://qatapultai.github.io",
   baseUrl: "/docs/",
   projectName: "docs",
-  organizationName: "qatapultai",
-  onBrokenLinks: "throw",
+  organizationName: "QatapultAI",
+  onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   themeConfig: {
